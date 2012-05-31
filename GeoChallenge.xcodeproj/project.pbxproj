@@ -37,20 +37,20 @@
 		A6D629521577CBEB0029C644 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A6D629541577CBEB0029C644 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A6D629561577CBEB0029C644 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A6D6295A1577CBEB0029C644 /* GeoChallenge-Info.plist */ = {isa = PBXFileReference; path = "GeoChallenge-Info.plist"; sourceTree = "<group>"; };
+		A6D6295A1577CBEB0029C644 /* GeoChallenge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoChallenge-Info.plist"; sourceTree = "<group>"; };
 		A6D6295C1577CBEB0029C644 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A6D6295E1577CBEB0029C644 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A6D629601577CBEB0029C644 /* GeoChallenge-Prefix.pch */ = {isa = PBXFileReference; path = "GeoChallenge-Prefix.pch"; sourceTree = "<group>"; };
-		A6D629611577CBEB0029C644 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6D629601577CBEB0029C644 /* GeoChallenge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoChallenge-Prefix.pch"; sourceTree = "<group>"; };
+		A6D629611577CBEB0029C644 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A6D629621577CBEB0029C644 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A6D629651577CBEB0029C644 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		A6D629671577CBEB0029C644 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		A6D629671577CBEB0029C644 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A6D629681577CBEB0029C644 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A6D6296F1577CBEB0029C644 /* GeoChallengeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoChallengeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6D629701577CBEB0029C644 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		A6D629781577CBEB0029C644 /* GeoChallengeTests-Info.plist */ = {isa = PBXFileReference; path = "GeoChallengeTests-Info.plist"; sourceTree = "<group>"; };
+		A6D629781577CBEB0029C644 /* GeoChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		A6D6297A1577CBEB0029C644 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A6D6297C1577CBEB0029C644 /* GeoChallengeTests.h */ = {isa = PBXFileReference; path = GeoChallengeTests.h; sourceTree = "<group>"; };
+		A6D6297C1577CBEB0029C644 /* GeoChallengeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoChallengeTests.h; sourceTree = "<group>"; };
 		A6D6297D1577CBEB0029C644 /* GeoChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoChallengeTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
