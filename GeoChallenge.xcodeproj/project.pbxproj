@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6D629531577CBEB0029C644 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D629521577CBEB0029C644 /* UIKit.framework */; };
+		A6D629551577CBEB0029C644 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D629541577CBEB0029C644 /* Foundation.framework */; };
+		A6D629571577CBEB0029C644 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D629561577CBEB0029C644 /* CoreGraphics.framework */; };
+		A6D6295D1577CBEB0029C644 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6D6295B1577CBEB0029C644 /* InfoPlist.strings */; };
+		A6D6295F1577CBEB0029C644 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D6295E1577CBEB0029C644 /* main.m */; };
+		A6D629631577CBEB0029C644 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D629621577CBEB0029C644 /* AppDelegate.m */; };
+		A6D629661577CBEB0029C644 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6D629641577CBEB0029C644 /* MainStoryboard.storyboard */; };
+		A6D629691577CBEB0029C644 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D629681577CBEB0029C644 /* ViewController.m */; };
+		A6D629711577CBEB0029C644 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D629701577CBEB0029C644 /* SenTestingKit.framework */; };
+		A6D629721577CBEB0029C644 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D629521577CBEB0029C644 /* UIKit.framework */; };
+		A6D629731577CBEB0029C644 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D629541577CBEB0029C644 /* Foundation.framework */; };
+		A6D6297B1577CBEB0029C644 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6D629791577CBEB0029C644 /* InfoPlist.strings */; };
+		A6D6297E1577CBEB0029C644 /* GeoChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D6297D1577CBEB0029C644 /* GeoChallengeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6D629741577CBEB0029C644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6D629451577CBEA0029C644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6D6294D1577CBEB0029C644;
+			remoteInfo = GeoChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6D6294E1577CBEB0029C644 /* GeoChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D629521577CBEB0029C644 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6D629541577CBEB0029C644 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6D629561577CBEB0029C644 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6D6295A1577CBEB0029C644 /* GeoChallenge-Info.plist */ = {isa = PBXFileReference; path = "GeoChallenge-Info.plist"; sourceTree = "<group>"; };
+		A6D6295C1577CBEB0029C644 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6D6295E1577CBEB0029C644 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6D629601577CBEB0029C644 /* GeoChallenge-Prefix.pch */ = {isa = PBXFileReference; path = "GeoChallenge-Prefix.pch"; sourceTree = "<group>"; };
+		A6D629611577CBEB0029C644 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6D629621577CBEB0029C644 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6D629651577CBEB0029C644 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A6D629671577CBEB0029C644 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		A6D629681577CBEB0029C644 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6D6296F1577CBEB0029C644 /* GeoChallengeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoChallengeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D629701577CBEB0029C644 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A6D629781577CBEB0029C644 /* GeoChallengeTests-Info.plist */ = {isa = PBXFileReference; path = "GeoChallengeTests-Info.plist"; sourceTree = "<group>"; };
+		A6D6297A1577CBEB0029C644 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6D6297C1577CBEB0029C644 /* GeoChallengeTests.h */ = {isa = PBXFileReference; path = GeoChallengeTests.h; sourceTree = "<group>"; };
+		A6D6297D1577CBEB0029C644 /* GeoChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoChallengeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6D6294B1577CBEB0029C644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D629531577CBEB0029C644 /* UIKit.framework in Frameworks */,
+				A6D629551577CBEB0029C644 /* Foundation.framework in Frameworks */,
+				A6D629571577CBEB0029C644 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D6296B1577CBEB0029C644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D629711577CBEB0029C644 /* SenTestingKit.framework in Frameworks */,
+				A6D629721577CBEB0029C644 /* UIKit.framework in Frameworks */,
+				A6D629731577CBEB0029C644 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6D629431577CBEA0029C644 = {
+			isa = PBXGroup;
+			children = (
+				A6D629581577CBEB0029C644 /* GeoChallenge */,
+				A6D629761577CBEB0029C644 /* GeoChallengeTests */,
+				A6D629511577CBEB0029C644 /* Frameworks */,
+				A6D6294F1577CBEB0029C644 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6D6294F1577CBEB0029C644 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6D6294E1577CBEB0029C644 /* GeoChallenge.app */,
+				A6D6296F1577CBEB0029C644 /* GeoChallengeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6D629511577CBEB0029C644 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6D629521577CBEB0029C644 /* UIKit.framework */,
+				A6D629541577CBEB0029C644 /* Foundation.framework */,
+				A6D629561577CBEB0029C644 /* CoreGraphics.framework */,
+				A6D629701577CBEB0029C644 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6D629581577CBEB0029C644 /* GeoChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				A6D629611577CBEB0029C644 /* AppDelegate.h */,
+				A6D629621577CBEB0029C644 /* AppDelegate.m */,
+				A6D629641577CBEB0029C644 /* MainStoryboard.storyboard */,
+				A6D629671577CBEB0029C644 /* ViewController.h */,
+				A6D629681577CBEB0029C644 /* ViewController.m */,
+				A6D629591577CBEB0029C644 /* Supporting Files */,
+			);
+			path = GeoChallenge;
+			sourceTree = "<group>";
+		};
+		A6D629591577CBEB0029C644 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6D6295A1577CBEB0029C644 /* GeoChallenge-Info.plist */,
+				A6D6295B1577CBEB0029C644 /* InfoPlist.strings */,
+				A6D6295E1577CBEB0029C644 /* main.m */,
+				A6D629601577CBEB0029C644 /* GeoChallenge-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6D629761577CBEB0029C644 /* GeoChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6D6297C1577CBEB0029C644 /* GeoChallengeTests.h */,
+				A6D6297D1577CBEB0029C644 /* GeoChallengeTests.m */,
+				A6D629771577CBEB0029C644 /* Supporting Files */,
+			);
+			path = GeoChallengeTests;
+			sourceTree = "<group>";
+		};
+		A6D629771577CBEB0029C644 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6D629781577CBEB0029C644 /* GeoChallengeTests-Info.plist */,
+				A6D629791577CBEB0029C644 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6D6294D1577CBEB0029C644 /* GeoChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6D629811577CBEB0029C644 /* Build configuration list for PBXNativeTarget "GeoChallenge" */;
+			buildPhases = (
+				A6D6294A1577CBEB0029C644 /* Sources */,
+				A6D6294B1577CBEB0029C644 /* Frameworks */,
+				A6D6294C1577CBEB0029C644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoChallenge;
+			productName = GeoChallenge;
+			productReference = A6D6294E1577CBEB0029C644 /* GeoChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6D6296E1577CBEB0029C644 /* GeoChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6D629841577CBEB0029C644 /* Build configuration list for PBXNativeTarget "GeoChallengeTests" */;
+			buildPhases = (
+				A6D6296A1577CBEB0029C644 /* Sources */,
+				A6D6296B1577CBEB0029C644 /* Frameworks */,
+				A6D6296C1577CBEB0029C644 /* Resources */,
+				A6D6296D1577CBEB0029C644 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6D629751577CBEB0029C644 /* PBXTargetDependency */,
+			);
+			name = GeoChallengeTests;
+			productName = GeoChallengeTests;
+			productReference = A6D6296F1577CBEB0029C644 /* GeoChallengeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6D629451577CBEA0029C644 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A6D629481577CBEA0029C644 /* Build configuration list for PBXProject "GeoChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6D629431577CBEA0029C644;
+			productRefGroup = A6D6294F1577CBEB0029C644 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6D6294D1577CBEB0029C644 /* GeoChallenge */,
+				A6D6296E1577CBEB0029C644 /* GeoChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6D6294C1577CBEB0029C644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D6295D1577CBEB0029C644 /* InfoPlist.strings in Resources */,
+				A6D629661577CBEB0029C644 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D6296C1577CBEB0029C644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D6297B1577CBEB0029C644 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6D6296D1577CBEB0029C644 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6D6294A1577CBEB0029C644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D6295F1577CBEB0029C644 /* main.m in Sources */,
+				A6D629631577CBEB0029C644 /* AppDelegate.m in Sources */,
+				A6D629691577CBEB0029C644 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D6296A1577CBEB0029C644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D6297E1577CBEB0029C644 /* GeoChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6D629751577CBEB0029C644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6D6294D1577CBEB0029C644 /* GeoChallenge */;
+			targetProxy = A6D629741577CBEB0029C644 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6D6295B1577CBEB0029C644 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6D6295C1577CBEB0029C644 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6D629641577CBEB0029C644 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6D629651577CBEB0029C644 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		A6D629791577CBEB0029C644 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6D6297A1577CBEB0029C644 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6D6297F1577CBEB0029C644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A6D629801577CBEB0029C644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6D629821577CBEB0029C644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoChallenge/GeoChallenge-Prefix.pch";
+				INFOPLIST_FILE = "GeoChallenge/GeoChallenge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6D629831577CBEB0029C644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoChallenge/GeoChallenge-Prefix.pch";
+				INFOPLIST_FILE = "GeoChallenge/GeoChallenge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A6D629851577CBEB0029C644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeoChallenge.app/GeoChallenge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoChallenge/GeoChallenge-Prefix.pch";
+				INFOPLIST_FILE = "GeoChallengeTests/GeoChallengeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A6D629861577CBEB0029C644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeoChallenge.app/GeoChallenge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoChallenge/GeoChallenge-Prefix.pch";
+				INFOPLIST_FILE = "GeoChallengeTests/GeoChallengeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6D629481577CBEA0029C644 /* Build configuration list for PBXProject "GeoChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D6297F1577CBEB0029C644 /* Debug */,
+				A6D629801577CBEB0029C644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6D629811577CBEB0029C644 /* Build configuration list for PBXNativeTarget "GeoChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D629821577CBEB0029C644 /* Debug */,
+				A6D629831577CBEB0029C644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A6D629841577CBEB0029C644 /* Build configuration list for PBXNativeTarget "GeoChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D629851577CBEB0029C644 /* Debug */,
+				A6D629861577CBEB0029C644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6D629451577CBEA0029C644 /* Project object */;
+}
