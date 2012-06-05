@@ -9,6 +9,18 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UILabel *label1;
+{
+    NSTimer *timer1;
+    int compteur;
+    int temps;
+    int aTouche;
+    int points;
+    int total;
+    int distance;
+    int x, y;
+    int etat;
+}
+@property (weak, nonatomic) IBOutlet UILabel *decompte;
+@property (weak, nonatomic) IBOutlet UILabel *score;
 
 @end
